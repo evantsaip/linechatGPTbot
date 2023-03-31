@@ -1,3 +1,4 @@
+
 require('dotenv').config();
 const line = require('@line/bot-sdk');
 const express = require('express');
@@ -6,8 +7,8 @@ const { Configuration, OpenAIApi } = require('openai');
 // create LINE SDK config from env variables
 const config = {
     channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
-    channelSecret: process.env.CHANNEL_SECRET
-}
+    channelSecret: process.env.CHANNEL_SECRET,
+};
 
 // openai key
 apiKey2 = process.env.OPENAI_API_KEY;
@@ -15,7 +16,7 @@ apiKey2 = process.env.OPENAI_API_KEY;
 
 // create LINE SDK client
 const client = new line.Client(config);
-
+ㄦ
 // create Express app
 const app = express();
 
