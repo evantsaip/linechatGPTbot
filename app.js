@@ -16,7 +16,7 @@ apiKey2 = process.env.OPENAI_API_KEY;
 
 // create LINE SDK client
 const client = new line.Client(config);
-ㄦ
+
 // create Express app
 const app = express();
 
